@@ -1,0 +1,24 @@
+{
+    "name": "ailose/upush",
+    "description": "upush",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ailose",
+            "email": "hy1874@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+        	"Ailose\\": "src/"
+    	}
+	}
+}
