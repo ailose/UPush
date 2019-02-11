@@ -45,7 +45,7 @@ alias: 开发者自有账号，开发者可以在SDK中调用setAlias(alias, ali
 # How to Use
 
 ```
-composer install ailose/upush
+composer require  ailose/upush
 
 
 use Ailose\Android;
