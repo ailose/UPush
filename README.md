@@ -45,6 +45,9 @@ alias: 开发者自有账号，开发者可以在SDK中调用setAlias(alias, ali
 # How to Use
 
 ```
+composer install ailose/upush
+
+
 use Ailose\Android;
 $obj = new Android('your key', 'your secret');
 $r = $obj->sendUnicast('push_token', 'title', 'ticker', 'text');
